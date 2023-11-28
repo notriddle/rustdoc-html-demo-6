@@ -1,8 +1,8 @@
 Testing T -> U ... in_args = 0, returned = 0, others = 200
-wall time = 8
+wall time = 9
 
 Testing T, U ... in_args = 0, returned = 0, others = 20
-wall time = 11
+wall time = 12
 
 Testing T -> T ... in_args = 0, returned = 0, others = 97
 wall time = 2
