@@ -570,13 +570,16 @@ ul.block, .block li {
 	overflow-wrap: break-word;
 	/* opposite of the link padding, cut in half again */
 	margin-top: calc( ( -16px + 0.57rem ) / 2 );
-	/* same font style used in `.since` */
-	font-variant-numeric: oldstyle-nums;
 }
 
 .sidebar-crate + .version {
 	margin-top: -1rem;
 	margin-bottom: 1rem;
+}
+
+.version {
+	/* same font style used in `.since` */
+	font-variant-numeric: oldstyle-nums;
 }
 
 .mobile-topbar {
