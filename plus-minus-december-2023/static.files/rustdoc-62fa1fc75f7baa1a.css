@@ -570,6 +570,8 @@ ul.block, .block li {
 	overflow-wrap: break-word;
 	/* opposite of the link padding, cut in half again */
 	margin-top: calc( ( -16px + 0.57rem ) / 2 );
+	/* same font style used in `.since` */
+	font-variant-numeric: oldstyle-nums;
 }
 
 .sidebar-crate + .version {
@@ -1681,7 +1683,6 @@ details.toggle[open] > summary::before {
 	/* toggle minus */
 	background: url('data:image/svg+xml,<svg width="15" height="15" stroke="black" fill="none" \
 xmlns="http://www.w3.org/2000/svg"><path d="M3 6.5h7"/></svg>') no-repeat top left;
-	<path d="M6 9.5h7"/></svg>') no-repeat top left;
 }
 
 details.toggle[open] > summary::after {
@@ -1752,7 +1753,6 @@ in src-script.js
 
 	.out-of-band .since::before {
 		content: "Since ";
-		font-variant-numeric: normal;
 	}
 
 	/* Hide the logo and item name from the sidebar. Those are displayed
