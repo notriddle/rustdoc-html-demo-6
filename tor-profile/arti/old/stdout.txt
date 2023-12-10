@@ -1,0 +1,33 @@
+Testing T -> U ... in_args = 0, returned = 0, others = 0
+wall time = 146
+
+Testing T, U ... in_args = 0, returned = 0, others = 0
+wall time = 77274
+
+Testing T -> T ... in_args = 0, returned = 0, others = 0
+wall time = 75
+
+Testing generic:T -> generic:U ... in_args = 0, returned = 0, others = 200
+wall time = 181
+
+Testing generic:T, generic:U ... in_args = 0, returned = 0, others = 200
+wall time = 84992
+
+Testing generic:T -> generic:T ... in_args = 0, returned = 0, others = 200
+wall time = 131
+
+Testing tor ... in_args = 17, returned = 8, others = 200
+wall time = 140
+
+Testing arti::client ... in_args = 0, returned = 0, others = 127
+wall time = 361
+
+Testing torclientbuilder -> torclient ... in_args = 0, returned = 0, others = 2
+wall time = 102
+
+Testing torclient, future ... in_args = 0, returned = 0, others = 0
+wall time = 139
+
+Testing future<box> ... in_args = 0, returned = 0, others = 40
+wall time = 241
+

@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"tor_config":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/convert/trait.AsRef.html\" title=\"trait core::convert::AsRef\">AsRef</a>&lt;<a class=\"struct\" href=\"https://doc.rust-lang.org/nightly/std/path/struct.PathBuf.html\" title=\"struct std::path::PathBuf\">PathBuf</a>&gt; for <a class=\"enum\" href=\"tor_config/sources/enum.ConfigurationSource.html\" title=\"enum tor_config::sources::ConfigurationSource\">ConfigurationSource</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
