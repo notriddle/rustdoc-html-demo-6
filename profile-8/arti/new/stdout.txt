@@ -1,0 +1,54 @@
+Testing generic:T -> generic:U ... in_args = 0, returned = 0, others = 200
+wall time = 134
+
+Testing generic:T, generic:U ... in_args = 0, returned = 0, others = 200
+wall time = 132
+
+Testing generic:T -> generic:T ... in_args = 0, returned = 0, others = 200
+wall time = 150
+
+Testing generic:T -> toraddr ... in_args = 0, returned = 0, others = 2
+wall time = 47
+
+Testing generic:T -> torclient ... in_args = 0, returned = 0, others = 6
+wall time = 27
+
+Testing generic:T -> retryerror ... in_args = 0, returned = 0, others = 2
+wall time = 36
+
+Testing generic:T -> solution ... in_args = 0, returned = 0, others = 0
+wall time = 10
+
+Testing generic:T -> equix ... in_args = 0, returned = 0, others = 0
+wall time = 9
+
+Testing generic:T, generic:U -> toraddr ... in_args = 0, returned = 0, others = 0
+wall time = 114
+
+Testing generic:T, generic:U -> torclient ... in_args = 0, returned = 0, others = 0
+wall time = 9
+
+Testing generic:T, generic:U -> retryerror ... in_args = 0, returned = 0, others = 0
+wall time = 114
+
+Testing generic:T, generic:U -> solution ... in_args = 0, returned = 0, others = 0
+wall time = 74
+
+Testing generic:T, generic:U -> equix ... in_args = 0, returned = 0, others = 0
+wall time = 12
+
+Testing tor ... in_args = 17, returned = 8, others = 200
+wall time = 77
+
+Testing arti::client ... in_args = 0, returned = 0, others = 127
+wall time = 221
+
+Testing torclientbuilder -> torclient ... in_args = 0, returned = 0, others = 2
+wall time = 28
+
+Testing torclient, future ... in_args = 0, returned = 0, others = 0
+wall time = 8
+
+Testing future<box> ... in_args = 0, returned = 0, others = 40
+wall time = 40
+
